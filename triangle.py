@@ -9,7 +9,7 @@ def triangle(t):
     for r in range(row):
         # print(r)
         for c in range(column):
-            if r == 0 or c == r or c == (column) - r:
+            if r == 0 or c == r or c == (column) - r -1:
                 if r != row-1:
                     print(" * ",end='')
                 else:
